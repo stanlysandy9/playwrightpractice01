@@ -1,11 +1,10 @@
-import {test} from "@playwright/test";
-import { LoginPage } from "../Pages/login";
+import { LoginPage } from "../Pages/login"
+import test from "@playwright/test";
 
 
 
-test ("@Login Test", async ({page})=>  {
-const loginPage = new LoginPage(page);
- await loginPage.openApplication();
-
+test ("@QA test 01 playwrightpractice01", async ({page})=>{
+const loginPage =new LoginPage(page);
+    await loginPage.openApplication();
 
 })
